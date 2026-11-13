@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "autototem",
+  "version": "${version}",
+  "name": "Auto Totem",
+  "description": "Offhand'e otomatik Totem of Undying koyar. Ayar menusu, HUD gostergesi, rastgele gecikme.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.autototem.AutoTotemClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
